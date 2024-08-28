@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+}
+.container div{
+    height: 500px;
+    width: 500px;
+    flex-grow: 1;
+    overflow: hidden;
+
+}
+.container img{
+
+    height: 500px;
+    width: 500px;
+    filter: grayscale(1);
+    transform: 1s;
+}
+.container img:houver{
+    filter: grayscale(0);
+    transform: scale(1.5);
+}
